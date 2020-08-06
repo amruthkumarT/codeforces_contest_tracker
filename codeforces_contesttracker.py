@@ -60,7 +60,7 @@ def getHistory(user,participated_contests):
         
 if __name__ == "__main__":
     contest_ids = getContestData()
-    user="amruthkumar"
+    user=input().strip()
     user_contests=userContests(user)
     participated_contests=defaultdict(list)
     d=defaultdict(list)
