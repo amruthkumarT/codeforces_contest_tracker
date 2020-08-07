@@ -26,7 +26,6 @@ def getContestData():
             contests.append([i["id"],i["name"],i["durationSeconds"]])
         else:
             break 
-        break 
     return(contests)
 
 def userContests(user):
