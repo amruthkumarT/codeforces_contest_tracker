@@ -4,7 +4,7 @@ import datetime
 from collections import defaultdict
 
 def find_totalseconds():
-    a=str(datetime.datetime.now())
+    a="2020-09-29 11:59:00.00"
     days=int(a[8:10])
     hours=int(a[11:13])
     minutes=int(a[14:16])
